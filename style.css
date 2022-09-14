@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+.icons{
+    position: fixed;
+    top: 40%;
+    right: 0;
+    background-color: white;
+    border-radius: 3px;
+
+}
+.flexw{
+    position: fixed;
+    width: 85%;
+}
+.header{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+}
+.header .logo{
+    float: left;
+    padding-top: 10px;
+    width: 55%;
+}
+.header .logo img{
+width:35%;
+}
+.header .navbar {
+float: left;
+
+width: 45%;
+}
+.header .navbar ul li{
+    display: inline-block;
+    margin: 20px;
+
+    font-size: large;
+  
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.clear-fix{
+    clear: both;
+}
+.info{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: white;
+    text-align: center;
+}
+.info .info-head{
+padding-bottom: 10px;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.info .info-family{
+    font-size: 60px;
+    font-family:monospace;
+    padding-bottom: 10px;
+}
+.info p{
+    line-height: 1.4;
+    font-size: 20px;
+}
+.info button{
+    padding: 20px;
+    border: none;
+    border: 2px solid white;
+    background: none;
+    border-radius: 10px;
+    margin: 20px 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+.info .active{
+    background-color: rgba(168, 128, 80, 0.859);
+}
+.home{
+
+    padding-top: 50px;
+}
+.home1{
+    width: 50%;
+    float: left;
+}
+.home1 img{
+width: 90%;
+}
+.home2{
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+}
+.home2-head{
+    font-size: 35px;
+    padding-bottom: 20px;
+    color: rgb(119, 119, 119);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home2-para{
+    line-height: 1.9;
+    font-size: 18px;
+    color: rgb(119, 119, 119);
+}
+.home-lines{
+    padding-top: 20px;
+    color: rgb(119, 119, 119);
+}
+
+.home-linkss{
+    padding-bottom: 30px;
+}
+.line1{
+    float: left;
+}
+.product{
+    background-color: rgb(249, 249, 249);
+    padding-top: 4%;
+}
+.porduct-para{
+    float: left;
+    width: 50%;
+}
+.porduct-para p{
+line-height: 1.8;
+padding-top:  10%;
+margin-right: 5px;
+}
+.product-img{
+    float: left;
+
+    width: 50%;
+}
+.product-img img{
+width: 90%;
+}
+.baking{
+
+    text-align: center;
+    padding-top: 60px;
+
+}
+.baking h2{
+padding-bottom: 20px;
+color: rgb(86, 82, 82);
+}
+.baking p{
+padding-bottom: 30px;
+color: rgb(119, 119, 119);
+}
+.baking1{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.baking1 img{
+width: 90%;
+} 
+.baking1 h3{
+    padding: 20px 0;
+    color: rgb(78, 76, 76);
+}
+.baking1 p{
+line-height: 1.7;
+width: 95%;
+color: rgb(119, 119, 119);
+}
+
+.details{
+    background-color: rgb(249, 249, 249);
+    padding-top: 4%;
+}
+.details-para{
+    float: left;
+    width: 50%;
+}
+.details-para p{
+line-height: 1.8;
+padding-top:  10%;
+margin-right: 5px;
+}
+.details-img{
+    float: left;
+
+    width: 50%;
+}
+.details-img img{
+width: 90%;
+}
+.footer{
+    background-color: rgb(59, 54, 53);
+    padding-top: 40px;
+    color: rgb(189, 189, 189);
+}
+.footer1{
+    float: left;
+    width: 25%;
+}
+.footer1 h3{
+    padding-bottom: 20px;
+}
+.bakery-logo{
+    background-color:rgb(50, 47, 47);
+    text-align: center;
+    padding-top: 50px;
+    color: beige;
+}
+.bakery-logo p{
+    margin: 20px 10px;
+}
+.bakery-logo i {
+    padding: 10px;
+    background-color: rgb(196, 196, 196);
+    margin: 20px 10px;
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
